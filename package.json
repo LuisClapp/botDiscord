@@ -4,7 +4,6 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,8 +13,5 @@
   "dependencies": {
     "discord.js": "^14.24.1",
     "dotenv": "^17.2.3"
-  },
-  "devDependencies": {
-    "husky": "^9.1.7"
   }
 }
