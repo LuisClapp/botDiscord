@@ -39,3 +39,13 @@ Thumbs.db
 # ───────────────
 *.zip
 *.tar.gz
+
+# ───────────────
+# Husky
+# ───────────────
+.husky/_/
+
+# ───────────────
+# Scripts temporários
+# ───────────────
+scripts/*.log
