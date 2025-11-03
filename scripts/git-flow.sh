@@ -76,15 +76,15 @@ merge_branch() {
     exit 1
   fi
 
-  echo "🔄 Voltando para a main..."
-  git checkout main
-  git pull origin main
+  echo "🔄 Voltando para a develop..."
+  git checkout develop
+  git pull origin develop
 
   echo "🔀 Fazendo merge da branch $TARGET_BRANCH..."
   git merge "$TARGET_BRANCH"
 
   echo "🚀 Subindo alterações para o GitHub..."
-  git push origin main
+  git push origin develop
 
   echo "✅ Merge finalizado com sucesso!"
 }
