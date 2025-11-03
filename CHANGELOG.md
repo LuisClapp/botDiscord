@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/LuisClapp/botDiscord/compare/v1.3.0...v1.4.0) (2025-11-03)
+
+
+### Features
+
+* **commads:** adiciona o comando slash help ([28185e2](https://github.com/LuisClapp/botDiscord/commit/28185e26d991d75cb4dd7a23484d2e9e48dfd9d6))
+
 ## [1.3.0](https://github.com/LuisClapp/botDiscord/compare/v1.2.0...v1.3.0) (2025-11-03)
 
 
