@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/LuisClapp/botDiscord/compare/v1.5.1...v1.7.0) (2025-11-03)
+
+
+### Features
+
+* **commands:** adiciona o comando `!ai` com integração a AI ([dbc12ca](https://github.com/LuisClapp/botDiscord/commit/dbc12ca9e98c3696fcdb2e564f159d960029cbca))
+
 ## [1.6.0](https://github.com/LuisClapp/botDiscord/compare/v1.5.1...v1.6.0) (2025-11-03)
 
 
