@@ -5,9 +5,12 @@ const fs = require("fs");
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMembers
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildMessages,   // 👈 necessário para ler mensagens
+    GatewayIntentBits.MessageContent    // 👈 necessário para ler o conteúdo das mensagens
   ]
 });
+
 
 // Coleção para comandos
 client.commands = new Collection();
@@ -24,6 +27,8 @@ client.once("ready", () => require("./events/ready")(client));
 client.on("guildCreate", guild => require("./events/guildCreate")(guild, client));
 client.on("guildDelete", guild => require("./events/guildDelete")(guild, client));
 client.on("guildMemberAdd", member => require("./events/guildMemberAdd")(member));
+client.on("messageCreate", message => require("./events/messageCreate")(message, client));
+
 
 // Interações (Slash Commands)
 client.on("interactionCreate", async interaction => {
