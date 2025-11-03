@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/LuisClapp/botDiscord/compare/v1.4.0...v1.5.0) (2025-11-03)
+
+
+### Features
+
+* **commands:** add suspense and random responses to /dado command ([9e55e40](https://github.com/LuisClapp/botDiscord/commit/9e55e406330e4276c3858be9a17873139db678a2))
+* **scripts:** alteração do merge do scrip git-flow ([7352134](https://github.com/LuisClapp/botDiscord/commit/73521341014c9e9c89fbfb6f5a0f92c5020252f9))
+
 ## [1.4.0](https://github.com/LuisClapp/botDiscord/compare/v1.3.0...v1.4.0) (2025-11-03)
 
 
