@@ -92,7 +92,28 @@ node bot.js
 🔐 Configuração do .env
 Variável	Descrição
 TOKEN	Token do bot obtido no Discord Developer Portal
-.
-CLIENT_ID	ID da aplicação do bot.
-GUILD_ID	ID do servidor usado para registrar os comandos.
-OPENAI_API_KEY	Chave da API da OpenAI usada para integração com IA.
+
+🌳fluxo-de-versionamento-git-flow
+
+O projeto segue o modelo Git Flow, com as seguintes branches principais:
+
+Branch	Função
+main	Código de produção estável.
+develop	Integração de features antes da release.
+feature/<nome>	Desenvolvimento de novas funcionalidades.
+hotfix/<nome>	Correção rápida de bugs em produção.
+
+🧹 Husky + Commitlint
+
+O projeto usa Husky e Commitlint para padronizar commits no estilo Conventional Commits.
+
+
+✅ Exemplos válidos
+Tipo	Exemplo
+feat	feat(commands): adiciona comando de IA com OpenAI
+fix	fix(events): corrige saudação duplicada
+chore	chore(deps): atualiza dependências
+
+🧾 Licença
+Este projeto é distribuído sob a licença MIT.
+Desenvolvido com ❤️ por Luís Clapp.
